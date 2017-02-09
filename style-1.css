@@ -1,0 +1,42 @@
+/*
+If you are familiar with CSS, you can change colors, fonts, etc. through this css file.
+*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em;
+}
+.myContainer{
+  width:70%;
+  margin: 0 auto; 
+  padding:20px 20px 40px 20px;  
+  border: 1px solid #bbb;
+}
+.vGuide{
+  font-size: 0.7em;
+  color: #f00;
+  position: relative;
+  padding-top:20px;
+  bottom: 0;
+  text-align: center !important;
+}
+#visaButton,#visaDecrypt,#visaCYBSauth,#visaRetriveCallID{
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+#edata,#CallIDResult,#resultAuth{
+  word-wrap: break-word;
+  border: 1px solid #bbb;
+  padding:10px;
+}
+hr{
+  margin-bottom: 20px;
+  margin-top:20px;
+  color:#fff;
+}
+pre{
+  color:#888;
+}
+.documentation{
+  margin-top: -15px;
+}
